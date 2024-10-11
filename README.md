@@ -82,7 +82,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Firebase Setup
 - Deploying out app to production
 - Create SignUp User Account
-
+- SignIn User Account
 
 # Features
 - Login/Sign Up
