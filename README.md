@@ -84,7 +84,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Create SignUp User Account
 - Implement Sign In user Api
 - Created Redux Store with userSlice
-- displayName and profile update in store
+- Implemented Sign Out
+- Update Profile
 
 # Features
 - Login/Sign Up

@@ -31,7 +31,7 @@ const Login = () => {
                     const user = userCredential.user;
                     console.log(user);
                     updateProfile(user, {
-                        displayName: name.current.value, photoURL: "https://example.com/jane-q-user/profile.jpg"
+                        displayName: name.current.value, photoURL: "https://avatar.iran.liara.run/public/boy?username=Ash"
                     }).then(() => {
                         // Profile updated!
                         const { uid, email, displayName, photoURL } = auth.currentUser;
@@ -80,7 +80,7 @@ const Login = () => {
                         {
                             !isSignInForm && (
                                 <input
-                                    type="text"
+                                    type="text" ref={name}
                                     className="p-2 mt-3 w-full rounded-lg bg-gray-700"
                                     placeholder="Full Name"
                                 />
