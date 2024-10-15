@@ -86,6 +86,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Created Redux Store with userSlice
 - Implemented Sign Out
 - Update Profile
+- BugFix: Sign up user displayName and profile picture update
+- BugFix: if the user is not logged in Redirect to /browse to Login page and vice-versa
 
 # Features
 - Login/Sign Up
