@@ -30,7 +30,7 @@ const Login = () => {
                     const user = userCredential.user;
                     console.log(user);
                     updateProfile(user, {
-                        displayName: name.current.value, photoURL: { photoURL }
+                        displayName: name.current.value, photoURL: photoURL
                     }).then(() => {
                         // Profile updated!
                         const { uid, email, displayName, photoURL } = auth.currentUser;
