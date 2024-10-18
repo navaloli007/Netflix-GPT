@@ -89,7 +89,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - BugFix: Sign up user displayName and profile picture update
 - BugFix: if the user is not logged in Redirect to /browse to Login page and vice-versa
 - Unsubscribe to the onAuthStateChanged callback
-- constant file added.
+- Add Hardcoded values to the constants file.
+- Register TMDB API & create an app & get access token 
+- Get Data from TMDB now playing movies list API
+- Add now playing movies into the store.
 
 # Features
 - Login/Sign Up
