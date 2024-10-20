@@ -28,7 +28,6 @@ const Login = () => {
                 .then((userCredential) => {
                     // Signed up 
                     const user = userCredential.user;
-                    console.log(user);
                     updateProfile(user, {
                         displayName: name.current.value, photoURL: photoURL
                     }).then(() => {
