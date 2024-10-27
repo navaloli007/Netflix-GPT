@@ -99,8 +99,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Ftech Data for Trailer Video
 - Update Store with Trailer Video Data
 - Embedded the YouTube video and make it autoplay and mute
-- Tailwind CLasses to make Main COnatiner look awesome
+- Tailwind Classes to make Main COnatiner look awesome
 - Build Secondary Component
+- Build Movie Card
+- Build Movie Card
+- TMDB Image CDN URL
+- usePopularMovies, useUpcomigMovies etc
+- GPT Search Feature
+
 
 # Features
 - Login/Sign Up
