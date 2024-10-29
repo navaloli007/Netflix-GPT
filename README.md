@@ -102,7 +102,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Tailwind Classes to make Main COnatiner look awesome
 - Build Secondary Component
 - Build Movie Card
-- Build Movie Card
 - TMDB Image CDN URL
 - usePopularMovies, useUpcomigMovies etc
 - GPT Search Feature
