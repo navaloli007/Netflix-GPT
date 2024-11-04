@@ -104,7 +104,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Build Movie Card
 - TMDB Image CDN URL
 - usePopularMovies, useUpcomigMovies etc
-- GPT Search Feature
+- GPT Search Page
+- GPT Search Bar
+- (BONUS) Multi-language Feature in our App
 
 
 # Features
