@@ -8,7 +8,7 @@ export const API_OPTIONS = {
     method: 'GET',
     headers: {
         accept: 'application/json',
-        Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxODVlMGU5MDlhMGI1MzVmNzY3Nzc0NjVmMzk5NDYwNSIsIm5iZiI6MTcyOTI1NjA3NC43ODc0NCwic3ViIjoiNjcxMjU4YWQxNmNhYThiMGYwOWM0NTE1Iiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.uaAs9lIGzp9jxi-qduIE-HmH5zn_NQs3oNPrMFbhRuM'
+        Authorization: 'Bearer ' + process.env.REACT_APP_TMDB_KEY
     }
 };
 export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
