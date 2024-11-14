@@ -3,11 +3,14 @@
 @tailwind utilities;
 /* Custom class to hide scrollbar */
 .scrollbar-hide::-webkit-scrollbar {
-    display: none; /* For Chrome, Safari, and Opera */
-  }
-  
-  .scrollbar-hide {
-    -ms-overflow-style: none;  /* For Internet Explorer and Edge */
-    scrollbar-width: none;  /* For Firefox */
-  }
-  
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  scrollbar-width: none; /* For Firefox */
+}
+html {
+  overflow-x: hidden;
+  background-color: black;
+}
