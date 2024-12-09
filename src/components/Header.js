@@ -28,6 +28,9 @@ const Header = () => {
     const handleGPTSearchClick = () => {
         dispatch(toogleGptSearchView());
     }
+    const watchListClick = () => {
+
+    }
     useEffect(() => {
         const unsubscribe = onAuthStateChanged(auth, (user) => {
             if (user) {
@@ -56,6 +59,9 @@ const Header = () => {
                 <button className='py-2 px-4 mx-2 my-2 bg-purple-800 text-white rounded-lg'
                     onClick={handleGPTSearchClick}
                 >{showGptSearch ? "Home Page" : "GPT Search"}</button>
+                <button className='py-2 px-4 mx-2 my-2 bg-green-300 text-white rounded-lg'
+                    onClick={watchListClick}
+                >Watchlist</button>
                 <img className='w-12 h12' alt='usericon'
                     src={user?.photoURL} />
                 <button onClick={handleSignout} className='font-bold text-white'>(Sign Out)</button>

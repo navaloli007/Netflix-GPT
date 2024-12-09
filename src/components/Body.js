@@ -12,7 +12,7 @@ const Body = () => {
         {
             path: "/browse",
             element: <Browse />
-        }
+        },
     ])
     return (
         <div>
