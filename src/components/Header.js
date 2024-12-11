@@ -29,7 +29,7 @@ const Header = () => {
         dispatch(toogleGptSearchView());
     }
     const watchListClick = () => {
-
+        navigate("/watchlist");
     }
     useEffect(() => {
         const unsubscribe = onAuthStateChanged(auth, (user) => {
